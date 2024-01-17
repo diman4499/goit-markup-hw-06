@@ -3,26 +3,40 @@ body {
     color: var(--NAVY-BLUE, #2E2F42);
 }
 
+ul li {
+    list-style-type: none;
+}
+
 .logo-web {
     color: var(--IRIS, #4D5AE5);
     font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .logo-studio {
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.contacts {
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
 
 
@@ -41,10 +55,26 @@ h1{
 
 button {
     display: inline-flex;
+    padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
-    padding: 16px 32px;
     border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background: var(--IRIS, #4D5AE5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.section-title {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+}
+
+.our-team-list {
+    background: var(--CLOUD, #F4F4FD);
+    flex-shrink: 0;
+}
+
+.section-list-item {
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
