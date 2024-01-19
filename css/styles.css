@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
+  background: #ffffff;
 }
 
 ul li {
@@ -14,6 +15,10 @@ a {
 h2 {
   color: #2e2f42;
   text-align: center;
+  font-size: 20px;
+  line-height: 1.11px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .logo-web {
@@ -21,7 +26,7 @@ h2 {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -32,14 +37,14 @@ h2 {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
 }
 
 .menu-nav {
-  color: #434455;
+  color: #2e2f42;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -55,7 +60,7 @@ h2 {
 .menu-nav:active {
 }
 
-.menu-contacts {
+.contacts {
   color: #434455;
   font-size: 16px;
   font-style: normal;
@@ -64,11 +69,12 @@ h2 {
   letter-spacing: 0.32px;
 }
 
-.menu-contacts:hover,
-.menu-contacts:focus {
+.contacts:hover,
+.contacts:focus {
   color: #404bbf;
 }
 
+/* Секция 1 */
 h1 {
   color: #fff;
   text-align: center;
@@ -78,19 +84,19 @@ h1 {
   letter-spacing: 1.12px;
   font-style: normal;
 }
+
 .first-slider {
-  background: var(--NAVY-BLUE, #2e2f42);
+  background: #2e2f42;
+  line-height: 1.07px;
 }
 
 .button {
-  display: inline-flex;
-  align-items: flex-start;
-  padding: 4px 4px;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   color: #fff;
   cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5px;
+  letter-spacing: 0.04em;
 }
 
 .button:hover,
@@ -98,15 +104,42 @@ h1 {
   background: #404bbf;
 }
 
-.team-list {
+/* Секция 2 */
+
+.list {
   background: #f4f4fd;
   flex-shrink: 0;
 }
 
-.team-list-item {
-  border-radius: 0px 0px 4px 4px;
-  background: var(--WHITE, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+.list-item {
+  background: #fff;
+}
+
+.list-subject {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2px;
+  letter-spacing: 0.02em;
+}
+
+.list-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Футер */
+
+footer {
+  background-color: #2e2f42;
+}
+
+.logo-footer-studio {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
