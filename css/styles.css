@@ -75,12 +75,15 @@ h2 {
 }
 
 /* Секция 1 */
+
+.header-slider {
+  line-height: 1.07;
+}
 h1 {
   color: #fff;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
   letter-spacing: 1.12px;
   font-style: normal;
 }
