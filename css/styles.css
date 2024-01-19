@@ -26,7 +26,7 @@ h2 {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -37,7 +37,7 @@ h2 {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -87,24 +87,31 @@ h1 {
 
 .first-slider {
   background: #2e2f42;
-  line-height: 1.07px;
+  line-height: 1.07;
 }
 
 .button {
+  font-family: "Roboto", sans-serif;
   background: #4d5ae5;
   color: #fff;
   cursor: pointer;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 
 .button:hover,
-.button:active {
+.button:focus {
   background: #404bbf;
 }
 
-/* Секция 2 */
+/* Секция 2-3 */
+
+.team-list-title {
+  font-size: 36px;
+  line-height: 1.11;
+}
 
 .list {
   background: #f4f4fd;
@@ -116,9 +123,10 @@ h1 {
 }
 
 .list-subject {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -136,6 +144,7 @@ footer {
 
 .logo-footer-studio {
   color: #f4f4fd;
+  line-height: 1.17;
 }
 
 .footer-text {
