@@ -112,6 +112,11 @@ img {
   position: relative;
 }
 
+.current {
+  position: relative;
+  color: #404bbf;
+}
+
 .current::after {
   content: "";
   width: 100%;
