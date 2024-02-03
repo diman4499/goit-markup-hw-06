@@ -112,7 +112,7 @@ img {
   position: relative;
 }
 
-.current:hover:after {
+.current:hover::after {
   content: "";
   width: 100%;
   position: absolute;
