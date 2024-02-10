@@ -606,6 +606,7 @@ h1 {
 
 .close-button {
   position: absolute;
+  cursor: pointer;
   right: 24px;
   top: 24px;
   border-radius: 50%;
@@ -649,6 +650,7 @@ h1 {
   font-weight: 500;
   line-height: 1.5;
   margin-bottom: 16px;
+  letter-spacing: 0.02em;
 }
 
 .modal-input-container {
@@ -766,6 +768,12 @@ h1 {
 .modal-button {
   display: block;
   padding: 16px 32px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
   border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
